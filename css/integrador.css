@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+
+}
+
+header{
+	background-image: url(../imagenes/sunset.jpeg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	position: relative;
+}
+nav{
+	color: grey;
+	width: 100%;
+
+}
+ul{
+	width: 100%;
+	position: absolute;
+	left: 47.5%;
+	top: 1.5%;
+	
+
+}
+
+ul li{
+	float: left;
+	list-style: none;
+	padding: 1%;
+	font-weight: bold;
+	font-family: verdana;
+
+
+}
+#logo img{
+	width: 150px;
+	height: auto;
+	position: absolute;
+	left: 1.7%;
+	top: 2%;
+}
+main{
+	width: 100%;
+	margin: auto;
+	padding: 0.8% 1% 0 1%;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+#parrafo{
+	width: 38%;
+	height: 370px;
+	margin-left: -2%;
+	padding:1%; 
+	margin: 10px;
+	margin-top: 0px;
+	background-color: #ccc;
+	border-radius: 20px;
+	text-align: justify;
+	
+}
+#parrafo h1{
+	margin: auto;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+#parrafo h2{
+	margin: auto;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+#parrafo p{
+	width: 100%;
+	margin: auto;
+	line-height: 24px;
+}
+
+#video {
+	background-color: #ccc;
+	width: 62%;
+	margin: 10px;
+	margin-top: 0px;
+	height: 370px;
+	position: relative;
+	border-radius: 20px;
+}
+#video iframe{
+	width: 98%;
+	position: absolute;
+	left: 1%;
+	top: 17%;
+	height: 80%;
+}
+#video h2{
+	text-align: center;
+	padding-top: 2%;
+}
+#galeria{
+	width: 98%;
+	margin: auto;
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+}
+#galeria img{
+	width: 100%;
+	margin: auto;
+	height: 160px;
+	padding: 5%;
+	opacity: 0.6;
+}
+#galeria img:hover{
+	opacity: 1;
+	transition: 1s;
+	cursor: pointer;
+}
+
+footer{
+	height: 250px;
+	background-color: #0B615E;
+	position: relative;
+	color: white;
+	font-family: verdana;
+}
+footer #logo{
+	position: absolute;
+	top: 10%;
+	left: 2%;
+}
+
+footer #datos{
+	position: absolute;
+	top: 35%;
+	left: 3%;
+}
+footer #datos p{
+	padding-top: 15%;
+	font-weight: bold;
+}
+footer form{
+	width: 20%;
+	height: 160px;
+	background-color: #0B2F3A;
+	position: absolute;
+	left:75%;
+	top: 15%;
+	border-radius: 15px;
+
+}
+footer form h3{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: 20px; 
+}
+
+footer form input{
+	width: 90%;
+	height:40px;
+	margin-left: 5%;
+	
+	border-radius: 10px;
+
+}
+#enviar{
+	color: white;
+	background-color: green;
+	border: none;
+	margin-top: 2%;
+
+
+}

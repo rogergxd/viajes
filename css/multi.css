@@ -1,0 +1,12 @@
+body{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	font-family: verdana;
+	margin: 0;
+}
+
+h1{text-align: center;}
+h2, summary, audio, video{margin-left: 30px;}
+
+audio, video{margin-top: 10px;}
